@@ -1,0 +1,28 @@
+{
+  "name": "cancelable-race",
+  "version": "1.0.0",
+  "description": "Modification of Promise.race that cancels non-settled promises",
+  "main": "index.js",
+  "dependencies": {
+    "pinkie-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyBelym/cancelable-race.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Andrey Belym (belym.a.2105@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreyBelym/cancelable-race/issues"
+  },
+  "homepage": "https://github.com/AndreyBelym/cancelable-race#readme"
+}
